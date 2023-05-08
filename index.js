@@ -1,3 +1,10 @@
+/* Here is the explanation for the code below:
+1. Intercom sends a webhook to your app
+2. We create a GitHub issue from Intercom ticket payload
+3. We update Intercom ticket with GitHub issue URL
+4. GitHub sends a webhook to your app
+5. We update Intercom ticket status to resolved */
+
 require("dotenv").config();
 // Require express and body-parser
 const express = require("express");

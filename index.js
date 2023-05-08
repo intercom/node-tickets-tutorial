@@ -6,7 +6,6 @@
 5. We update Intercom ticket status to resolved */
 
 require("dotenv").config();
-// Require express and body-parser
 const express = require("express");
 const bodyParser = require("body-parser");
 const { Octokit } = require("octokit");
